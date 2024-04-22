@@ -17,7 +17,11 @@
     --container-offset: 15px;
   }
   // --------------- default JS variable ---------------
-    --header-height: 72px;
+    --header-height: 90px;
+
+    @include tablet{
+      --header-height: 54px;
+    }
 
 // --------------- default scroll variable ---------------
   --scrollbar-thumb: rgba(var(--bg-h),1.0);

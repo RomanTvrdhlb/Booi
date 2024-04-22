@@ -21,7 +21,7 @@
     }
 
     button{
-      color: rgba(var(--cl-c),1.0);
+      color: rgba(var(--cl-e),1.0);
       text-decoration: underline;
       font-family: var(--font-family);
       font-size: 14px;
@@ -31,7 +31,7 @@
       text-underline-offset: 3px;
 
       &:hover{
-        color: rgba(var(--cl-c),.7);
+        color: rgba(var(--cl-e),.7);
       }
     }
 
